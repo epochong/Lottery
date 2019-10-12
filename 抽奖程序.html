@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>我的网页</title>
+		<script>
+			var students=["王崇","翟师科","汤磊","刘睿宁","万浩","冯娜","张三","李四","王二麻子","王老五","菅星砚"];
+			function hello(){
+				var i=parseInt(Math.random()*11);
+				document.getElementById("name").innerText=students[i];
+			}
+		</script>
+	</head>
+	<body>
+	<center>
+	<br><br><br><br>
+	<p style="color:abcdef;font-size:40" id="name">欢迎来到小车控制系统</p>
+	<input type="button"value="前进"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="后退"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="左移"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="右移"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="开始"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="开始"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="开始"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="开始"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="开始"onclick="hello()">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button"value="停止"onclick="hello()">
+	</center>
+	</body>
+</html>
